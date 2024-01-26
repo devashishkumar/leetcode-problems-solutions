@@ -1,4 +1,4 @@
-able: Person
+Table: Person
 
 +-------------+---------+
 | Column Name | Type    |
