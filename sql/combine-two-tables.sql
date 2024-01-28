@@ -36,4 +36,4 @@ Return the result table in any order.
 select firstName, lastName, city, state
 from Person
 LEFT JOIN Address
-ON Person.PersonId = Address.PersonId
+ON Person.personId = Address.personId
