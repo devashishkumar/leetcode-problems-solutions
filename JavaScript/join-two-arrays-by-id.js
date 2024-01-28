@@ -6,8 +6,7 @@
  * @return {Array}
  */
 var join = function (arr1, arr2) {
-    return Object.values([...arr1, ...arr2].reduce((d, a) => (d[a.id] = {...d[a.id], ...a}) && d, {}))
-
+    return Object.values([...arr1, ...arr2].reduce((d, a) => (d[a.id] = {...d[a.id], ...a}) && d, {}));
 };
 
 join(
