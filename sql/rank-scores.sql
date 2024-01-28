@@ -28,7 +28,7 @@ create table Scores (id int identity(1, 1) primary key, score decimal(5, 2));
 INSERT INTO Scores
            (score)
      VALUES
-           (03.50), (03.65), (04.00), (03.85), (04.00), (03.65)
+           (3.50), (3.65), (4.00), (3.85), (4.00), (3.65)
 ;
 
 select s.score, (SELECT count(distinct(score)) from Scores m where m.score >= s.score) as rank from Scores s order by s.score desc;
