@@ -1,3 +1,5 @@
+/**
+
 Table: Employee
 
 +--------------+---------+
@@ -30,6 +32,8 @@ A company's executives are interested in seeing who earns the most money in each
 Write a solution to find the employees who are high earners in each of the departments.
 
 Return the result table in any order.
+
+**/
 
 select d.name as Department, e.name as Employee, e.salary as Salary
 from Employee e, Department d
